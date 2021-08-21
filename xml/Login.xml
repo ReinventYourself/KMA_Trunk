@@ -1,0 +1,104 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite configfailurepolicy="continue" name="KMA.Automation.chrome">
+
+	<parameter name="browser" value="firefox" />
+	<parameter name="URL" value="https://www.myuvo.com/" />
+	<parameter name="RetryCount" value="0" />
+	<listeners>
+		<listener class-name="com.rsi.kma.automation.utility.TestListener" />
+	</listeners>
+
+	<test name="Testing random">
+
+		<classes>
+				 <class name="com.rsi.kma.automation.testScripts.Regression.MyCarZone"/>
+				<class name="com.rsi.kma.automation.testScripts.Regression.Awards"/>
+				<!-- -->
+				<class name="com.rsi.kma.automation.testScripts.Regression.Maintenance"/>
+				
+		<!-- <class name="com.rsi.kma.automation.testScripts.Regression.Maintenance">
+				<methods>
+				<include name="RequestAppointment" />
+					
+				</methods>
+		</class>  -->
+		<!-- 
+		<class name="com.rsi.kma.automation.testScripts.Regression.Battery" >
+		<methods>
+					
+					<include name="CheckNoDaysSameDaysEV1" />
+					
+				
+
+				</methods>
+				</class> 
+		<class name="com.rsi.kma.automation.testScripts.Regression.TripInfo" >
+		<methods>
+					
+					<include name="MergeUnmergeTrips" />
+					
+				
+
+				</methods>
+				</class>  -->
+				
+				
+				
+				
+				
+		<!--  -->
+		<!-- <class name="com.rsi.kma.automation.testScripts.Regression.Awards">
+		<methods>
+					
+					<include name="TravellerAward" />
+					
+
+				</methods>
+				</class> 
+		 <class name="com.rsi.kma.automation.testScripts.Regression.FindMyCar" />  -->
+		 
+	<!-- 
+		<class name="com.rsi.kma.automation.testScripts.Regression.MyVehicles" />
+			<class name="com.rsi.kma.automation.testScripts.Regression.TripInfo" />
+			
+
+			<class name="com.rsi.kma.automation.testScripts.Regression.DrivingActivity" />
+			<class name="com.rsi.kma.automation.testScripts.Regression.Awards">
+				<methods>
+					<include name="addDeleteGeofence" />
+					<include name="PoweUserAward" />
+					<include name="GettingIntersetedAward" />
+					<include name="TravellerAward" />
+					<include name="checkAboutAwards" />
+
+				</methods>
+			</class>
+		<class name="com.rsi.kma.automation.testScripts.Regression.MyPois" /> -->
+		<!-- 	
+			</class> -->
+			<!-- <class name="com.rsi.kma.automation.testScripts.Regression.Overview" />
+			<class name="com.rsi.kma.automation.testScripts.Regression.Battery" />
+
+	
+			<class name="com.rsi.kma.automation.testScripts.Regression.LockUnlock" />
+			<class name="com.rsi.kma.automation.testScripts.Regression.Login" />
+
+			<class name="com.rsi.kma.automation.testScripts.Regression.Register" />
+			
+			<class name="com.rsi.kma.automation.testScripts.Regression.Battery" > -->
+			
+<!-- <methods>
+					<include name="modifyGeoFenceAlert" />
+				
+
+				</methods> -->
+		<!-- 	</class> -->
+
+		</classes>
+
+
+
+
+	</test>
+</suite>

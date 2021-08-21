@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite configfailurepolicy="continue" name="KMA.Automation.chrome">
+
+	<parameter name="browser" value="chrome" />
+	<parameter name="URL" value="https://stg.myuvo.com/" />
+	<parameter name="RetryCount" value="0" />
+	<listeners>
+		<listener class-name="com.rsi.kma.automation.utility.TestListener" />
+	</listeners>
+
+	<test name="Testing random">
+
+		<classes>
+		<class name="com.rsi.kma.automation.testScripts.Regression.LockUnlock" />
+		<!-- <class name="com.rsi.kma.automation.testScripts.Regression.Register" />
+			<class name="com.rsi.kma.automation.testScripts.Regression.Battery">
+			</class>
+			<class name="com.rsi.kma.automation.testScripts.Regression.Awards" />
+			<class name="com.rsi.kma.automation.testScripts.Regression.Overview" />
+			<class name="com.rsi.kma.automation.testScripts.Regression.LockUnlock" />
+			
+			<class name="com.rsi.kma.automation.testScripts.Regression.Climate" />
+		 -->
+
+		</classes>
+
+	</test>
+</suite>

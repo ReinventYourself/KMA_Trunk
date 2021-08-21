@@ -1,0 +1,211 @@
+|05-28-2018 15:59:35 |  INFO |                           com.rsi.kma.automation.utility.Log |             startTestCase |                                                                                       
+|05-28-2018 15:59:35 |  INFO |                           com.rsi.kma.automation.utility.Log |             startTestCase | **************************************************************************************
+|05-28-2018 15:59:35 |  INFO |                           com.rsi.kma.automation.utility.Log |             startTestCase | **************************************************************************************
+|05-28-2018 15:59:35 |  INFO |                           com.rsi.kma.automation.utility.Log |             startTestCase | $$$$$$$$$$$$$$$$$$$$$          CHROME at Windows 10         $$$$$$$$$$$$$$$$$$$$$$
+|05-28-2018 15:59:35 |  INFO |                           com.rsi.kma.automation.utility.Log |             startTestCase | **************************************************************************************
+|05-28-2018 15:59:35 |  INFO |                           com.rsi.kma.automation.utility.Log |             startTestCase | **************************************************************************************
+|05-28-2018 15:59:38 |  INFO |                         com.rsi.kma.automation.utility.Utils |                     setUp | Chrome browser launched
+|05-28-2018 15:59:38 |  INFO |                         com.rsi.kma.automation.utility.Utils |                     setUp | Implicit wait applied on the driver for 60 seconds
+|05-28-2018 15:59:39 |  INFO |                         com.rsi.kma.automation.utility.Utils |                     setUp | Browser window is maximized
+|05-28-2018 16:00:24 |  INFO |                         com.rsi.kma.automation.utility.Utils |                   openURL | Web application launched successfully
+|05-28-2018 16:00:24 |  INFO |                     com.rsi.kma.automation.utility.BaseClass |          driverInitialise | setUp() method has executed successfully
+|05-28-2018 16:00:24 |  INFO |                     com.rsi.kma.automation.utility.BaseClass |              chooseRandom | Inside lockDoors
+|05-28-2018 16:00:25 |  INFO |                         com.rsi.kma.automation.utility.Utils |    generateRandomPlatform | Login credentials found for DE PHEV
+|05-28-2018 16:00:25 |  INFO |                  com.rsi.kma.automation.utility.TestListener |               onTestStart | 
+|05-28-2018 16:00:25 |  INFO |                  com.rsi.kma.automation.utility.TestListener |               onTestStart |  ***** lockDoors (com.rsi.kma.automation.testScripts.Regression.LockUnlock) STARTS ***** 
+|05-28-2018 16:00:25 |  INFO |                     com.rsi.kma.automation.utility.BaseClass |                 lockDoors | platform is :DE PHEV
+|05-28-2018 16:00:30 | ERROR |                com.rsi.kma.automation.utility.FindWebElement |                   byXpath | logOutLink is not found on Header page activity | class com.rsi.kma.automation.utility.FindWebElement$1 | method byXpath
+|05-28-2018 16:00:30 |  INFO |                com.rsi.kma.automation.utility.FindWebElement |                      byId | Username is found on login form  activity
+|05-28-2018 16:00:30 |  INFO |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeVisible | inside wait for element
+|05-28-2018 16:00:30 |  INFO |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeVisible | Element is visible
+|05-28-2018 16:00:30 |  INFO |                com.rsi.kma.automation.utility.FindWebElement |                      byId | Username is found on login form  activity
+|05-28-2018 16:00:30 |  INFO |                  com.rsi.kma.automation.modules.ActionModule |               isDisplayed | Username is displayed on the Login Page activity
+|05-28-2018 16:00:30 |  INFO |                  com.rsi.kma.automation.modules.ActionModule |                  sendKeys | de042518@gmail.com is entered in Username
+|05-28-2018 16:00:30 |  INFO |                com.rsi.kma.automation.utility.FindWebElement |                      byId | passwordField is found on login form  activity
+|05-28-2018 16:00:30 |  INFO |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeVisible | inside wait for element
+|05-28-2018 16:00:30 |  INFO |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeVisible | Element is visible
+|05-28-2018 16:00:30 |  INFO |                com.rsi.kma.automation.utility.FindWebElement |                      byId | passwordField is found on login form  activity
+|05-28-2018 16:00:30 |  INFO |                  com.rsi.kma.automation.modules.ActionModule |               isDisplayed | password is displayed on the Login Page activity
+|05-28-2018 16:00:30 |  INFO |                  com.rsi.kma.automation.modules.ActionModule |                  sendKeys | Password1 is entered in password
+|05-28-2018 16:00:30 |  INFO |                com.rsi.kma.automation.utility.FindWebElement |                      byId | loginButton is found on Login Form  activity
+|05-28-2018 16:00:30 |  INFO |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeClickable | Element is clickable
+|05-28-2018 16:00:30 |  INFO |                com.rsi.kma.automation.utility.FindWebElement |                      byId | loginButton is found on Login Form  activity
+|05-28-2018 16:00:30 |  INFO |                  com.rsi.kma.automation.modules.ActionModule |               isDisplayed | Login Button is displayed on the Login Page activity
+|05-28-2018 16:00:30 |  INFO |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeClickable | Element is clickable
+|05-28-2018 16:00:30 |  INFO |                  com.rsi.kma.automation.modules.ActionModule |                     click | Login Button is successfully clicked on Login Page activity
+|05-28-2018 16:00:30 |  INFO |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeNotVisible | Element is not visible
+|05-28-2018 16:00:30 |  INFO |                  com.rsi.kma.automation.modules.ActionModule |             domProcessing | DOM processing compeleted sucessfully
+|05-28-2018 16:01:31 | ERROR |                         com.rsi.kma.automation.utility.Utils |     waitForTitleToVisible | Element is not visible | class com.rsi.kma.automation.utility.Utils$21 | method waitForTitleToVisible
+|05-28-2018 16:01:31 | ERROR |                         com.rsi.kma.automation.utility.Utils |     waitForTitleToVisible | Expected condition failed: waiting for title to contain "MyUVO - My Vehicles". Current title: "UVO Home" (tried for 60 second(s) with 5 SECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'C40FF55KMA', ip: '10.131.10.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\MEGHA~1.SHA\AppData\Local\Temp\scoped_dir18196_11203}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.181, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 28f9ef908fe5e83bfbc2298a4ca1e246
+|05-28-2018 16:01:36 | ERROR |                com.rsi.kma.automation.utility.FindWebElement |                   byXpath |  addVehicle  is not found on  My vehicles activity | class com.rsi.kma.automation.utility.FindWebElement$1 | method byXpath
+|05-28-2018 16:01:36 |  INFO |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeVisible | inside wait for element
+|05-28-2018 16:01:36 | ERROR |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeVisible | Element is not visible | class com.rsi.kma.automation.utility.Utils$13 | method waitForElementToBeVisible
+|05-28-2018 16:01:36 | ERROR |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeVisible | 
+|05-28-2018 16:01:36 | ERROR |                   com.rsi.kma.automation.modules.LoginModule |                     login | Request timeout.Login failed.User could not land on My Vehicle page
+|05-28-2018 16:01:36 |  INFO |                         com.rsi.kma.automation.utility.Utils |            takeScreenshot | Screenshot captured
+|05-28-2018 16:01:36 |  INFO |                         com.rsi.kma.automation.utility.Utils |            takeScreenshot | Screenshot saved to destination
+|05-28-2018 16:01:36 |  INFO |                  com.rsi.kma.automation.utility.TestListener |             onTestFailure |  FAIL TS_02 lockDoors LockUnlock CHROME
+|05-28-2018 16:01:36 |  INFO |                         com.rsi.kma.automation.utility.Utils |            isAlertPresent | No Alert Found
+|05-28-2018 16:01:41 | ERROR |                com.rsi.kma.automation.utility.FindWebElement |                   byXpath | close is not found on OverviewPage activity | class com.rsi.kma.automation.utility.FindWebElement$1 | method byXpath
+|05-28-2018 16:01:41 | ERROR |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeClickable | Element is not clickable | class com.rsi.kma.automation.utility.Utils$5 | method waitForElementToBeClickable
+|05-28-2018 16:01:41 | ERROR |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeClickable | 
+|05-28-2018 16:01:46 | ERROR |                com.rsi.kma.automation.utility.FindWebElement |                   byXpath | logOutLink is not found on Header page activity | class com.rsi.kma.automation.utility.FindWebElement$1 | method byXpath
+|05-28-2018 16:01:46 | ERROR |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeClickable | Element is not clickable | class com.rsi.kma.automation.utility.Utils$5 | method waitForElementToBeClickable
+|05-28-2018 16:01:46 | ERROR |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeClickable | 
+|05-28-2018 16:01:46 |  INFO |                         com.rsi.kma.automation.utility.Utils |            isAlertPresent | No Alert Found
+|05-28-2018 16:01:46 |  INFO |                     com.rsi.kma.automation.utility.BaseClass |              chooseRandom | Inside lockDoorsEV1
+|05-28-2018 16:01:46 |  INFO |                         com.rsi.kma.automation.utility.Utils |    generateRandomPlatform | Login credentials found for EV 1.0
+|05-28-2018 16:01:46 |  INFO |                  com.rsi.kma.automation.utility.TestListener |               onTestStart | 
+|05-28-2018 16:01:46 |  INFO |                  com.rsi.kma.automation.utility.TestListener |               onTestStart |  ***** lockDoorsEV1 (com.rsi.kma.automation.testScripts.Regression.LockUnlock) STARTS ***** 
+|05-28-2018 16:01:46 |  INFO |                     com.rsi.kma.automation.utility.BaseClass |              lockDoorsEV1 | platform is :EV 1.0
+|05-28-2018 16:01:51 | ERROR |                com.rsi.kma.automation.utility.FindWebElement |                   byXpath | logOutLink is not found on Header page activity | class com.rsi.kma.automation.utility.FindWebElement$1 | method byXpath
+|05-28-2018 16:01:52 |  INFO |                com.rsi.kma.automation.utility.FindWebElement |                      byId | Username is found on login form  activity
+|05-28-2018 16:01:52 |  INFO |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeVisible | inside wait for element
+|05-28-2018 16:01:52 |  INFO |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeVisible | Element is visible
+|05-28-2018 16:01:52 |  INFO |                com.rsi.kma.automation.utility.FindWebElement |                      byId | Username is found on login form  activity
+|05-28-2018 16:01:52 |  INFO |                  com.rsi.kma.automation.modules.ActionModule |               isDisplayed | Username is displayed on the Login Page activity
+|05-28-2018 16:01:52 |  INFO |                  com.rsi.kma.automation.modules.ActionModule |                  sendKeys | ev042518@gmail.com is entered in Username
+|05-28-2018 16:01:52 |  INFO |                com.rsi.kma.automation.utility.FindWebElement |                      byId | passwordField is found on login form  activity
+|05-28-2018 16:01:52 |  INFO |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeVisible | inside wait for element
+|05-28-2018 16:01:52 |  INFO |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeVisible | Element is visible
+|05-28-2018 16:01:52 |  INFO |                com.rsi.kma.automation.utility.FindWebElement |                      byId | passwordField is found on login form  activity
+|05-28-2018 16:01:52 |  INFO |                  com.rsi.kma.automation.modules.ActionModule |               isDisplayed | password is displayed on the Login Page activity
+|05-28-2018 16:01:52 |  INFO |                  com.rsi.kma.automation.modules.ActionModule |                  sendKeys | Password1 is entered in password
+|05-28-2018 16:01:52 |  INFO |                com.rsi.kma.automation.utility.FindWebElement |                      byId | loginButton is found on Login Form  activity
+|05-28-2018 16:01:52 |  INFO |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeClickable | Element is clickable
+|05-28-2018 16:01:52 |  INFO |                com.rsi.kma.automation.utility.FindWebElement |                      byId | loginButton is found on Login Form  activity
+|05-28-2018 16:01:52 |  INFO |                  com.rsi.kma.automation.modules.ActionModule |               isDisplayed | Login Button is displayed on the Login Page activity
+|05-28-2018 16:01:52 |  INFO |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeClickable | Element is clickable
+|05-28-2018 16:01:52 |  INFO |                  com.rsi.kma.automation.modules.ActionModule |                     click | Login Button is successfully clicked on Login Page activity
+|05-28-2018 16:01:52 |  INFO |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeNotVisible | Element is not visible
+|05-28-2018 16:01:52 |  INFO |                  com.rsi.kma.automation.modules.ActionModule |             domProcessing | DOM processing compeleted sucessfully
+|05-28-2018 16:02:52 | ERROR |                         com.rsi.kma.automation.utility.Utils |     waitForTitleToVisible | Element is not visible | class com.rsi.kma.automation.utility.Utils$21 | method waitForTitleToVisible
+|05-28-2018 16:02:52 | ERROR |                         com.rsi.kma.automation.utility.Utils |     waitForTitleToVisible | Expected condition failed: waiting for title to contain "MyUVO - My Vehicles". Current title: "UVO Home" (tried for 60 second(s) with 5 SECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'C40FF55KMA', ip: '10.131.10.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\MEGHA~1.SHA\AppData\Local\Temp\scoped_dir18196_11203}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.181, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 28f9ef908fe5e83bfbc2298a4ca1e246
+|05-28-2018 16:02:57 | ERROR |                com.rsi.kma.automation.utility.FindWebElement |                   byXpath |  addVehicle  is not found on  My vehicles activity | class com.rsi.kma.automation.utility.FindWebElement$1 | method byXpath
+|05-28-2018 16:02:57 |  INFO |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeVisible | inside wait for element
+|05-28-2018 16:02:57 | ERROR |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeVisible | Element is not visible | class com.rsi.kma.automation.utility.Utils$13 | method waitForElementToBeVisible
+|05-28-2018 16:02:57 | ERROR |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeVisible | 
+|05-28-2018 16:02:57 | ERROR |                   com.rsi.kma.automation.modules.LoginModule |                     login | Request timeout.Login failed.User could not land on My Vehicle page
+|05-28-2018 16:02:58 |  INFO |                         com.rsi.kma.automation.utility.Utils |            takeScreenshot | Screenshot captured
+|05-28-2018 16:02:58 |  INFO |                         com.rsi.kma.automation.utility.Utils |            takeScreenshot | Screenshot saved to destination
+|05-28-2018 16:02:58 |  INFO |                  com.rsi.kma.automation.utility.TestListener |             onTestFailure |  FAIL TS_02a lockDoorsEV1 LockUnlock CHROME
+|05-28-2018 16:02:58 |  INFO |                         com.rsi.kma.automation.utility.Utils |            isAlertPresent | No Alert Found
+|05-28-2018 16:03:03 | ERROR |                com.rsi.kma.automation.utility.FindWebElement |                   byXpath | close is not found on OverviewPage activity | class com.rsi.kma.automation.utility.FindWebElement$1 | method byXpath
+|05-28-2018 16:03:03 | ERROR |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeClickable | Element is not clickable | class com.rsi.kma.automation.utility.Utils$5 | method waitForElementToBeClickable
+|05-28-2018 16:03:03 | ERROR |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeClickable | 
+|05-28-2018 16:03:08 | ERROR |                com.rsi.kma.automation.utility.FindWebElement |                   byXpath | logOutLink is not found on Header page activity | class com.rsi.kma.automation.utility.FindWebElement$1 | method byXpath
+|05-28-2018 16:03:08 | ERROR |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeClickable | Element is not clickable | class com.rsi.kma.automation.utility.Utils$5 | method waitForElementToBeClickable
+|05-28-2018 16:03:08 | ERROR |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeClickable | 
+|05-28-2018 16:03:08 |  INFO |                         com.rsi.kma.automation.utility.Utils |            isAlertPresent | No Alert Found
+|05-28-2018 16:03:08 |  INFO |                     com.rsi.kma.automation.utility.BaseClass |              chooseRandom | Inside unlockDoors
+|05-28-2018 16:03:08 |  INFO |                         com.rsi.kma.automation.utility.Utils |    generateRandomPlatform | Login credentials found for EV 2.0
+|05-28-2018 16:03:08 |  INFO |                  com.rsi.kma.automation.utility.TestListener |               onTestStart | 
+|05-28-2018 16:03:08 |  INFO |                  com.rsi.kma.automation.utility.TestListener |               onTestStart |  ***** unlockDoors (com.rsi.kma.automation.testScripts.Regression.LockUnlock) STARTS ***** 
+|05-28-2018 16:03:08 |  INFO |                     com.rsi.kma.automation.utility.BaseClass |               unlockDoors | platform is :EV 2.0
+|05-28-2018 16:03:13 | ERROR |                com.rsi.kma.automation.utility.FindWebElement |                   byXpath | logOutLink is not found on Header page activity | class com.rsi.kma.automation.utility.FindWebElement$1 | method byXpath
+|05-28-2018 16:03:13 |  INFO |                com.rsi.kma.automation.utility.FindWebElement |                      byId | Username is found on login form  activity
+|05-28-2018 16:03:13 |  INFO |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeVisible | inside wait for element
+|05-28-2018 16:03:13 |  INFO |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeVisible | Element is visible
+|05-28-2018 16:03:13 |  INFO |                com.rsi.kma.automation.utility.FindWebElement |                      byId | Username is found on login form  activity
+|05-28-2018 16:03:13 |  INFO |                  com.rsi.kma.automation.modules.ActionModule |               isDisplayed | Username is displayed on the Login Page activity
+|05-28-2018 16:03:13 |  INFO |                  com.rsi.kma.automation.modules.ActionModule |                  sendKeys | ev2042518@gmail.com is entered in Username
+|05-28-2018 16:03:13 |  INFO |                com.rsi.kma.automation.utility.FindWebElement |                      byId | passwordField is found on login form  activity
+|05-28-2018 16:03:13 |  INFO |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeVisible | inside wait for element
+|05-28-2018 16:03:13 |  INFO |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeVisible | Element is visible
+|05-28-2018 16:03:13 |  INFO |                com.rsi.kma.automation.utility.FindWebElement |                      byId | passwordField is found on login form  activity
+|05-28-2018 16:03:13 |  INFO |                  com.rsi.kma.automation.modules.ActionModule |               isDisplayed | password is displayed on the Login Page activity
+|05-28-2018 16:03:13 |  INFO |                  com.rsi.kma.automation.modules.ActionModule |                  sendKeys | Password1 is entered in password
+|05-28-2018 16:03:13 |  INFO |                com.rsi.kma.automation.utility.FindWebElement |                      byId | loginButton is found on Login Form  activity
+|05-28-2018 16:03:13 |  INFO |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeClickable | Element is clickable
+|05-28-2018 16:03:13 |  INFO |                com.rsi.kma.automation.utility.FindWebElement |                      byId | loginButton is found on Login Form  activity
+|05-28-2018 16:03:13 |  INFO |                  com.rsi.kma.automation.modules.ActionModule |               isDisplayed | Login Button is displayed on the Login Page activity
+|05-28-2018 16:03:13 |  INFO |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeClickable | Element is clickable
+|05-28-2018 16:03:13 |  INFO |                  com.rsi.kma.automation.modules.ActionModule |                     click | Login Button is successfully clicked on Login Page activity
+|05-28-2018 16:03:13 |  INFO |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeNotVisible | Element is not visible
+|05-28-2018 16:03:13 |  INFO |                  com.rsi.kma.automation.modules.ActionModule |             domProcessing | DOM processing compeleted sucessfully
+|05-28-2018 16:04:14 | ERROR |                         com.rsi.kma.automation.utility.Utils |     waitForTitleToVisible | Element is not visible | class com.rsi.kma.automation.utility.Utils$21 | method waitForTitleToVisible
+|05-28-2018 16:04:14 | ERROR |                         com.rsi.kma.automation.utility.Utils |     waitForTitleToVisible | Expected condition failed: waiting for title to contain "MyUVO - My Vehicles". Current title: "UVO Home" (tried for 60 second(s) with 5 SECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'C40FF55KMA', ip: '10.131.10.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\MEGHA~1.SHA\AppData\Local\Temp\scoped_dir18196_11203}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.181, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 28f9ef908fe5e83bfbc2298a4ca1e246
+|05-28-2018 16:04:19 | ERROR |                com.rsi.kma.automation.utility.FindWebElement |                   byXpath |  addVehicle  is not found on  My vehicles activity | class com.rsi.kma.automation.utility.FindWebElement$1 | method byXpath
+|05-28-2018 16:04:19 |  INFO |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeVisible | inside wait for element
+|05-28-2018 16:04:19 | ERROR |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeVisible | Element is not visible | class com.rsi.kma.automation.utility.Utils$13 | method waitForElementToBeVisible
+|05-28-2018 16:04:19 | ERROR |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeVisible | 
+|05-28-2018 16:04:19 | ERROR |                   com.rsi.kma.automation.modules.LoginModule |                     login | Request timeout.Login failed.User could not land on My Vehicle page
+|05-28-2018 16:04:19 |  INFO |                         com.rsi.kma.automation.utility.Utils |            takeScreenshot | Screenshot captured
+|05-28-2018 16:04:19 |  INFO |                         com.rsi.kma.automation.utility.Utils |            takeScreenshot | Screenshot saved to destination
+|05-28-2018 16:04:19 |  INFO |                  com.rsi.kma.automation.utility.TestListener |             onTestFailure |  FAIL TS_01 unlockDoors LockUnlock CHROME
+|05-28-2018 16:04:19 |  INFO |                         com.rsi.kma.automation.utility.Utils |            isAlertPresent | No Alert Found
+|05-28-2018 16:04:24 | ERROR |                com.rsi.kma.automation.utility.FindWebElement |                   byXpath | close is not found on OverviewPage activity | class com.rsi.kma.automation.utility.FindWebElement$1 | method byXpath
+|05-28-2018 16:04:24 | ERROR |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeClickable | Element is not clickable | class com.rsi.kma.automation.utility.Utils$5 | method waitForElementToBeClickable
+|05-28-2018 16:04:24 | ERROR |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeClickable | 
+|05-28-2018 16:04:29 | ERROR |                com.rsi.kma.automation.utility.FindWebElement |                   byXpath | logOutLink is not found on Header page activity | class com.rsi.kma.automation.utility.FindWebElement$1 | method byXpath
+|05-28-2018 16:04:29 | ERROR |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeClickable | Element is not clickable | class com.rsi.kma.automation.utility.Utils$5 | method waitForElementToBeClickable
+|05-28-2018 16:04:29 | ERROR |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeClickable | 
+|05-28-2018 16:04:29 |  INFO |                         com.rsi.kma.automation.utility.Utils |            isAlertPresent | No Alert Found
+|05-28-2018 16:04:29 |  INFO |                     com.rsi.kma.automation.utility.BaseClass |              chooseRandom | Inside unlockDoorsEV1
+|05-28-2018 16:04:29 |  INFO |                         com.rsi.kma.automation.utility.Utils |    generateRandomPlatform | Login credentials found for EV 1.0
+|05-28-2018 16:04:29 |  INFO |                  com.rsi.kma.automation.utility.TestListener |               onTestStart | 
+|05-28-2018 16:04:29 |  INFO |                  com.rsi.kma.automation.utility.TestListener |               onTestStart |  ***** unlockDoorsEV1 (com.rsi.kma.automation.testScripts.Regression.LockUnlock) STARTS ***** 
+|05-28-2018 16:04:29 |  INFO |                     com.rsi.kma.automation.utility.BaseClass |            unlockDoorsEV1 | platform is :EV 1.0
+|05-28-2018 16:04:34 | ERROR |                com.rsi.kma.automation.utility.FindWebElement |                   byXpath | logOutLink is not found on Header page activity | class com.rsi.kma.automation.utility.FindWebElement$1 | method byXpath
+|05-28-2018 16:04:34 |  INFO |                com.rsi.kma.automation.utility.FindWebElement |                      byId | Username is found on login form  activity
+|05-28-2018 16:04:34 |  INFO |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeVisible | inside wait for element
+|05-28-2018 16:04:34 |  INFO |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeVisible | Element is visible
+|05-28-2018 16:04:34 |  INFO |                com.rsi.kma.automation.utility.FindWebElement |                      byId | Username is found on login form  activity
+|05-28-2018 16:04:34 |  INFO |                  com.rsi.kma.automation.modules.ActionModule |               isDisplayed | Username is displayed on the Login Page activity
+|05-28-2018 16:04:34 |  INFO |                  com.rsi.kma.automation.modules.ActionModule |                  sendKeys | ev042518@gmail.com is entered in Username
+|05-28-2018 16:04:34 |  INFO |                com.rsi.kma.automation.utility.FindWebElement |                      byId | passwordField is found on login form  activity
+|05-28-2018 16:04:34 |  INFO |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeVisible | inside wait for element
+|05-28-2018 16:04:34 |  INFO |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeVisible | Element is visible
+|05-28-2018 16:04:34 |  INFO |                com.rsi.kma.automation.utility.FindWebElement |                      byId | passwordField is found on login form  activity
+|05-28-2018 16:04:34 |  INFO |                  com.rsi.kma.automation.modules.ActionModule |               isDisplayed | password is displayed on the Login Page activity
+|05-28-2018 16:04:35 |  INFO |                  com.rsi.kma.automation.modules.ActionModule |                  sendKeys | Password1 is entered in password
+|05-28-2018 16:04:35 |  INFO |                com.rsi.kma.automation.utility.FindWebElement |                      byId | loginButton is found on Login Form  activity
+|05-28-2018 16:04:35 |  INFO |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeClickable | Element is clickable
+|05-28-2018 16:04:35 |  INFO |                com.rsi.kma.automation.utility.FindWebElement |                      byId | loginButton is found on Login Form  activity
+|05-28-2018 16:04:35 |  INFO |                  com.rsi.kma.automation.modules.ActionModule |               isDisplayed | Login Button is displayed on the Login Page activity
+|05-28-2018 16:04:35 |  INFO |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeClickable | Element is clickable
+|05-28-2018 16:04:35 |  INFO |                  com.rsi.kma.automation.modules.ActionModule |                     click | Login Button is successfully clicked on Login Page activity
+|05-28-2018 16:04:35 |  INFO |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeNotVisible | Element is not visible
+|05-28-2018 16:04:35 |  INFO |                  com.rsi.kma.automation.modules.ActionModule |             domProcessing | DOM processing compeleted sucessfully
+|05-28-2018 16:05:35 | ERROR |                         com.rsi.kma.automation.utility.Utils |     waitForTitleToVisible | Element is not visible | class com.rsi.kma.automation.utility.Utils$21 | method waitForTitleToVisible
+|05-28-2018 16:05:35 | ERROR |                         com.rsi.kma.automation.utility.Utils |     waitForTitleToVisible | Expected condition failed: waiting for title to contain "MyUVO - My Vehicles". Current title: "UVO Home" (tried for 60 second(s) with 5 SECONDS interval)
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'C40FF55KMA', ip: '10.131.10.49', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7), userDataDir=C:\Users\MEGHA~1.SHA\AppData\Local\Temp\scoped_dir18196_11203}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=66.0.3359.181, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: 28f9ef908fe5e83bfbc2298a4ca1e246
+|05-28-2018 16:05:40 | ERROR |                com.rsi.kma.automation.utility.FindWebElement |                   byXpath |  addVehicle  is not found on  My vehicles activity | class com.rsi.kma.automation.utility.FindWebElement$1 | method byXpath
+|05-28-2018 16:05:40 |  INFO |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeVisible | inside wait for element
+|05-28-2018 16:05:40 | ERROR |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeVisible | Element is not visible | class com.rsi.kma.automation.utility.Utils$13 | method waitForElementToBeVisible
+|05-28-2018 16:05:40 | ERROR |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeVisible | 
+|05-28-2018 16:05:40 | ERROR |                   com.rsi.kma.automation.modules.LoginModule |                     login | Request timeout.Login failed.User could not land on My Vehicle page
+|05-28-2018 16:05:40 |  INFO |                         com.rsi.kma.automation.utility.Utils |            takeScreenshot | Screenshot captured
+|05-28-2018 16:05:40 |  INFO |                         com.rsi.kma.automation.utility.Utils |            takeScreenshot | Screenshot saved to destination
+|05-28-2018 16:05:40 |  INFO |                  com.rsi.kma.automation.utility.TestListener |             onTestFailure |  FAIL TS_01a unlockDoorsEV1 LockUnlock CHROME
+|05-28-2018 16:05:40 |  INFO |                         com.rsi.kma.automation.utility.Utils |            isAlertPresent | No Alert Found
+|05-28-2018 16:05:45 | ERROR |                com.rsi.kma.automation.utility.FindWebElement |                   byXpath | close is not found on OverviewPage activity | class com.rsi.kma.automation.utility.FindWebElement$1 | method byXpath
+|05-28-2018 16:05:45 | ERROR |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeClickable | Element is not clickable | class com.rsi.kma.automation.utility.Utils$5 | method waitForElementToBeClickable
+|05-28-2018 16:05:45 | ERROR |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeClickable | 
+|05-28-2018 16:05:51 | ERROR |                com.rsi.kma.automation.utility.FindWebElement |                   byXpath | logOutLink is not found on Header page activity | class com.rsi.kma.automation.utility.FindWebElement$1 | method byXpath
+|05-28-2018 16:05:51 | ERROR |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeClickable | Element is not clickable | class com.rsi.kma.automation.utility.Utils$5 | method waitForElementToBeClickable
+|05-28-2018 16:05:51 | ERROR |                         com.rsi.kma.automation.utility.Utils | waitForElementToBeClickable | 
+|05-28-2018 16:05:51 |  INFO |                         com.rsi.kma.automation.utility.Utils |            isAlertPresent | No Alert Found
+|05-28-2018 16:05:52 |  INFO |                         com.rsi.kma.automation.utility.Utils |                  tearDown | Browser window is closed
+|05-28-2018 16:05:52 |  INFO |                     com.rsi.kma.automation.utility.BaseClass |                driveClose | tearDown has executed successfully
+|05-28-2018 16:05:52 |  INFO |                  com.rsi.kma.automation.utility.TestListener | generateSuiteSummaryReport | Date is ****28 May 2018
+|05-28-2018 16:05:52 |  INFO |                         com.rsi.kma.automation.utility.Utils | getParameterValueFromCsvFile | value of parameter is : megha.sharma@rsystems.com 

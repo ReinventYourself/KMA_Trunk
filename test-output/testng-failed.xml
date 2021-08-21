@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [KMA.Automation.chrome]">
+  <parameter name="RetryCount" value="0"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="URL" value="https://stg.myuvo.com/"/>
+  <listeners>
+    <listener class-name="com.rsi.kma.automation.utility.TestListener"/>
+  </listeners>
+  <test name="Testing random(failed)">
+    <classes>
+      <class name="com.rsi.kma.automation.testScripts.Regression.LockUnlock">
+        <methods>
+          <include name="lockDoors"/>
+          <include name="logout"/>
+          <include name="unlockDoors"/>
+          <include name="tearDown"/>
+          <include name="chooseRandom"/>
+          <include name="driveClose"/>
+          <include name="unlockDoorsEV1"/>
+          <include name="driverInitialise"/>
+          <include name="lockDoorsEV1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.rsi.kma.automation.testScripts.Regression.LockUnlock -->
+    </classes>
+  </test> <!-- Testing random(failed) -->
+</suite> <!-- Failed suite [KMA.Automation.chrome] -->

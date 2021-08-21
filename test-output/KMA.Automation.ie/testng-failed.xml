@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" name="Failed suite [KMA.Automation.ie]">
+  <parameter name="browser" value="ie"/>
+  <parameter name="URL" value="https://stg.myuvo.com/"/>
+  <listeners>
+    <listener class-name="com.rsi.kma.automation.utility.TestListener"/>
+  </listeners>
+  <test name="POC(failed)">
+    <classes>
+      <class name="com.rsi.kma.automation.testScripts.Regression.Overview">
+        <methods>
+          <include name="logout"/>
+          <include name="loginOverview"/>
+          <include name="tearDown"/>
+          <include name="generateRandomPlatform"/>
+          <include name="checkDrivingScore"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.rsi.kma.automation.testScripts.Regression.Overview -->
+    </classes>
+  </test> <!-- POC(failed) -->
+</suite> <!-- Failed suite [KMA.Automation.ie] -->
